@@ -1,5 +1,13 @@
 # Supanova Labs: paid build task
 
+## Your mission: Calibration-profile editor with live preview
+
+Build: Edit per-project weights; see the re-ranking a change causes before saving.
+
+Server work: Deterministic re-rank on the server; save versioned profiles.
+
+How would you explain to a non-technical founder what a weight change did?
+
 You have been invited to the paid stage. This is real work on a real internal product. We pay ₹1,000 for a completed submission, whether or not we take you further.
 
 ## Context: the product you are building on
