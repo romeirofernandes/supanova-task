@@ -1,0 +1,2350 @@
+{
+  "version": 4,
+  "signals": [
+    {
+      "id": "2026-07-06_atlas_permit_intake",
+      "match_key": "atlas_permit_intake",
+      "type": "meeting",
+      "date": "2026-07-06",
+      "time": "11:00",
+      "title": "Atlas permit intake",
+      "detected_on": "2026-07-07",
+      "attendees": [
+        "rue@atlaspermits.example",
+        "kit@studio.example"
+      ],
+      "projects": [
+        "atlas"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "atlas": {
+          "state": "analyzed",
+          "analyzed_at": "2026-07-08",
+          "files_reviewed": [
+            "sources/granola/2026-07-06-atlas_permit_intake.md"
+          ],
+          "analysis_ref": "run-54"
+        }
+      },
+      "sources": {
+        "granola_note": null,
+        "transcript": null,
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-06_product_review__external",
+      "match_key": "product_review__external",
+      "type": "meeting",
+      "date": "2026-07-06",
+      "time": "11:30",
+      "title": "Product review (external)",
+      "detected_on": "2026-07-07",
+      "attendees": [
+        "tam@quillusers.example",
+        "rue@atlaspermits.example",
+        "bo@harborline.example"
+      ],
+      "projects": [
+        "internal_unsorted"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": null,
+        "transcript": "sources/transcripts/2026-07-06-product_review__external.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-07_harborline_weekly_sync",
+      "match_key": "harborline_weekly_sync",
+      "type": "meeting",
+      "date": "2026-07-07",
+      "time": "16:15",
+      "title": "Harborline weekly sync",
+      "detected_on": "2026-07-08",
+      "attendees": [
+        "bo@harborline.example",
+        "rue@atlaspermits.example",
+        "sam@studio.example",
+        "dana@northwind.example"
+      ],
+      "projects": [
+        "harborline"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "harborline": {
+          "state": "analyzed",
+          "analyzed_at": "2026-07-09",
+          "files_reviewed": [
+            "sources/transcripts/2026-07-07-harborline_weekly_sync.txt",
+            "sources/recordings/2026-07-07-harborline_weekly_sync.mp4"
+          ],
+          "analysis_ref": "run-46"
+        }
+      },
+      "sources": {
+        "granola_note": null,
+        "transcript": "sources/transcripts/2026-07-07-harborline_weekly_sync.txt",
+        "recording": "sources/recordings/2026-07-07-harborline_weekly_sync.mp4"
+      }
+    },
+    {
+      "id": "2026-07-07_follow_up_on_the_thing_we_discussed",
+      "match_key": "follow_up_on_the_thing_we_discussed",
+      "type": "meeting",
+      "date": "2026-07-07",
+      "time": "17:15",
+      "title": "Follow-up on the thing we discussed",
+      "detected_on": "2026-07-08",
+      "attendees": [
+        "dana@northwind.example",
+        "rue@atlaspermits.example",
+        "ivo@harborline.example"
+      ],
+      "projects": [
+        "internal_unsorted"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": null,
+        "transcript": "sources/transcripts/2026-07-07-follow_up_on_the_thing_we_discussed.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-08_manifest_import_retro",
+      "match_key": "manifest_import_retro",
+      "type": "meeting",
+      "date": "2026-07-08",
+      "time": "09:30",
+      "title": "Manifest import retro",
+      "detected_on": "2026-07-09",
+      "attendees": [
+        "kit@studio.example",
+        "tam@quillusers.example"
+      ],
+      "projects": [
+        "harborline"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "harborline": {
+          "state": "analyzed",
+          "analyzed_at": "2026-07-10",
+          "files_reviewed": [
+            "sources/granola/2026-07-08-manifest_import_retro.md",
+            "sources/transcripts/2026-07-08-manifest_import_retro.txt",
+            "sources/recordings/2026-07-08-manifest_import_retro.mp4"
+          ],
+          "analysis_ref": "run-82"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-07-08-manifest_import_retro.md",
+        "transcript": "sources/transcripts/2026-07-08-manifest_import_retro.txt",
+        "recording": "sources/recordings/2026-07-08-manifest_import_retro.mp4"
+      }
+    },
+    {
+      "id": "2026-07-08_atlas_permits___data_questions",
+      "match_key": "atlas_permits___data_questions",
+      "type": "meeting",
+      "date": "2026-07-08",
+      "time": "12:00",
+      "title": "Atlas permits \u2014 data questions",
+      "detected_on": "2026-07-09",
+      "attendees": [
+        "bo@harborline.example",
+        "ivo@harborline.example",
+        "sam@studio.example"
+      ],
+      "projects": [
+        "atlas"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-07-08-atlas_permits___data_questions.md",
+        "transcript": "sources/transcripts/2026-07-08-atlas_permits___data_questions.txt",
+        "recording": "sources/recordings/2026-07-08-atlas_permits___data_questions.mp4"
+      }
+    },
+    {
+      "id": "2026-07-08_quill___what_ships_first",
+      "match_key": "quill___what_ships_first",
+      "type": "meeting",
+      "date": "2026-07-08",
+      "time": "14:00",
+      "title": "Quill \u2014 what ships first",
+      "detected_on": "2026-07-09",
+      "attendees": [
+        "bo@harborline.example",
+        "ivo@harborline.example",
+        "sam@studio.example"
+      ],
+      "projects": [
+        "quill"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "quill": {
+          "state": "pending",
+          "analyzed_at": null,
+          "files_reviewed": [],
+          "analysis_ref": null
+        }
+      },
+      "sources": {
+        "granola_note": null,
+        "transcript": "sources/transcripts/2026-07-08-quill___what_ships_first.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-09_atlas_permits___data_questions",
+      "match_key": "atlas_permits___data_questions",
+      "type": "meeting",
+      "date": "2026-07-09",
+      "time": "13:00",
+      "title": "Atlas permits \u2014 data questions",
+      "detected_on": "2026-07-10",
+      "attendees": [
+        "bo@harborline.example",
+        "rue@atlaspermits.example"
+      ],
+      "projects": [
+        "atlas"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-07-09-atlas_permits___data_questions.md",
+        "transcript": "sources/transcripts/2026-07-09-atlas_permits___data_questions.txt",
+        "recording": "sources/recordings/2026-07-09-atlas_permits___data_questions.mp4"
+      }
+    },
+    {
+      "id": "2026-07-09_harborline_manifest_import",
+      "match_key": "harborline_manifest_import",
+      "type": "meeting",
+      "date": "2026-07-09",
+      "time": "14:15",
+      "title": "Harborline manifest import",
+      "detected_on": "2026-07-10",
+      "attendees": [
+        "bo@harborline.example",
+        "ivo@harborline.example",
+        "tam@quillusers.example",
+        "noor@studio.example"
+      ],
+      "projects": [
+        "harborline"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "harborline": {
+          "state": "analyzed",
+          "analyzed_at": "2026-07-11",
+          "files_reviewed": [
+            "sources/granola/2026-07-09-harborline_manifest_import.md"
+          ],
+          "analysis_ref": "run-79"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-07-09-harborline_manifest_import.md",
+        "transcript": null,
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-13_harborline_weekly_sync",
+      "match_key": "harborline_weekly_sync",
+      "type": "meeting",
+      "date": "2026-07-13",
+      "time": "11:00",
+      "title": "Harborline weekly sync",
+      "detected_on": "2026-07-14",
+      "attendees": [
+        "rue@atlaspermits.example",
+        "noor@studio.example"
+      ],
+      "projects": [
+        "harborline"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "harborline": {
+          "state": "pending",
+          "analyzed_at": null,
+          "files_reviewed": [],
+          "analysis_ref": null
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-07-13-harborline_weekly_sync.md",
+        "transcript": null,
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-14_thursday_call",
+      "match_key": "thursday_call",
+      "type": "meeting",
+      "date": "2026-07-14",
+      "time": "13:15",
+      "title": "Thursday call",
+      "detected_on": "2026-07-15",
+      "attendees": [
+        "tam@quillusers.example",
+        "noor@studio.example",
+        "dana@northwind.example"
+      ],
+      "projects": [
+        "internal_unsorted"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-07-14-thursday_call.md",
+        "transcript": "sources/transcripts/2026-07-14-thursday_call.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-14_quill_drafting_flow_review",
+      "match_key": "quill_drafting_flow_review",
+      "type": "meeting",
+      "date": "2026-07-14",
+      "time": "17:30",
+      "title": "Quill drafting flow review",
+      "detected_on": "2026-07-15",
+      "attendees": [
+        "rue@atlaspermits.example",
+        "ivo@harborline.example"
+      ],
+      "projects": [
+        "quill"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-07-14-quill_drafting_flow_review.md",
+        "transcript": "sources/transcripts/2026-07-14-quill_drafting_flow_review.txt",
+        "recording": "sources/recordings/2026-07-14-quill_drafting_flow_review.mp4"
+      }
+    },
+    {
+      "id": "2026-07-15_portal_handover_check",
+      "match_key": "portal_handover_check",
+      "type": "meeting",
+      "date": "2026-07-15",
+      "time": "17:15",
+      "title": "Portal handover check",
+      "detected_on": "2026-07-16",
+      "attendees": [
+        "noor@studio.example",
+        "sam@studio.example"
+      ],
+      "projects": [
+        "northwind"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "northwind": {
+          "state": "analyzed",
+          "analyzed_at": "2026-07-17",
+          "files_reviewed": [],
+          "analysis_ref": "run-54"
+        }
+      },
+      "sources": {
+        "granola_note": null,
+        "transcript": null,
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-16_quick_sync",
+      "match_key": "quick_sync",
+      "type": "meeting",
+      "date": "2026-07-16",
+      "time": "09:30",
+      "title": "Quick sync",
+      "detected_on": "2026-07-17",
+      "attendees": [
+        "kit@studio.example",
+        "bo@harborline.example"
+      ],
+      "projects": [
+        "internal_unsorted"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-07-16-quick_sync.md",
+        "transcript": "sources/transcripts/2026-07-16-quick_sync.txt",
+        "recording": "sources/recordings/2026-07-16-quick_sync.mp4"
+      }
+    },
+    {
+      "id": "2026-07-16_harborline_weekly_sync",
+      "match_key": "harborline_weekly_sync",
+      "type": "meeting",
+      "date": "2026-07-16",
+      "time": "10:00",
+      "title": "Harborline weekly sync",
+      "detected_on": "2026-07-17",
+      "attendees": [
+        "ivo@harborline.example",
+        "bo@harborline.example"
+      ],
+      "projects": [
+        "harborline"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "harborline": {
+          "state": "analyzed",
+          "analyzed_at": "2026-07-18",
+          "files_reviewed": [
+            "sources/granola/2026-07-16-harborline_weekly_sync.md",
+            "sources/transcripts/2026-07-16-harborline_weekly_sync.txt"
+          ],
+          "analysis_ref": "run-71"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-07-16-harborline_weekly_sync.md",
+        "transcript": "sources/transcripts/2026-07-16-harborline_weekly_sync.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-16_atlas_permit_intake",
+      "match_key": "atlas_permit_intake",
+      "type": "meeting",
+      "date": "2026-07-16",
+      "time": "13:30",
+      "title": "Atlas permit intake",
+      "detected_on": "2026-07-17",
+      "attendees": [
+        "sam@studio.example",
+        "tam@quillusers.example",
+        "ivo@harborline.example"
+      ],
+      "projects": [
+        "atlas"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-07-16-atlas_permit_intake.md",
+        "transcript": "sources/transcripts/2026-07-16-atlas_permit_intake.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-20_quill_drafting_flow_review",
+      "match_key": "quill_drafting_flow_review",
+      "type": "meeting",
+      "date": "2026-07-20",
+      "time": "15:15",
+      "title": "Quill drafting flow review",
+      "detected_on": "2026-07-21",
+      "attendees": [
+        "sam@studio.example",
+        "noor@studio.example",
+        "bo@harborline.example"
+      ],
+      "projects": [
+        "quill"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-07-20-quill_drafting_flow_review.md",
+        "transcript": null,
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-21_atlas_permit_intake",
+      "match_key": "atlas_permit_intake",
+      "type": "meeting",
+      "date": "2026-07-21",
+      "time": "13:00",
+      "title": "Atlas permit intake",
+      "detected_on": "2026-07-22",
+      "attendees": [
+        "dana@northwind.example",
+        "noor@studio.example",
+        "rue@atlaspermits.example"
+      ],
+      "projects": [
+        "atlas"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-07-21-atlas_permit_intake.md",
+        "transcript": "sources/transcripts/2026-07-21-atlas_permit_intake.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-21_freight_manifest_edge_cases",
+      "match_key": "freight_manifest_edge_cases",
+      "type": "meeting",
+      "date": "2026-07-21",
+      "time": "13:15",
+      "title": "Freight manifest edge cases",
+      "detected_on": "2026-07-22",
+      "attendees": [
+        "ivo@harborline.example",
+        "noor@studio.example",
+        "tam@quillusers.example",
+        "rue@atlaspermits.example"
+      ],
+      "projects": [
+        "harborline"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": null,
+        "transcript": "sources/transcripts/2026-07-21-freight_manifest_edge_cases.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-22_northwind_supply_portal_walkthrough",
+      "match_key": "northwind_supply_portal_walkthrough",
+      "type": "meeting",
+      "date": "2026-07-22",
+      "time": "11:00",
+      "title": "Northwind supply portal walkthrough",
+      "detected_on": "2026-07-23",
+      "attendees": [
+        "rue@atlaspermits.example",
+        "kit@studio.example",
+        "noor@studio.example"
+      ],
+      "projects": [
+        "northwind"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "northwind": {
+          "state": "analyzed",
+          "analyzed_at": "2026-07-24",
+          "files_reviewed": [
+            "sources/granola/2026-07-22-northwind_supply_portal_walkthrough.md"
+          ],
+          "analysis_ref": "run-999"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-07-22-northwind_supply_portal_walkthrough.md",
+        "transcript": null,
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-22_northwind_supply_portal_walkthrough",
+      "match_key": "northwind_supply_portal_walkthrough",
+      "type": "meeting",
+      "date": "2026-07-22",
+      "time": "11:30",
+      "title": "Northwind supply portal walkthrough",
+      "detected_on": "2026-07-23",
+      "attendees": [
+        "ivo@harborline.example",
+        "bo@harborline.example",
+        "sam@studio.example",
+        "tam@quillusers.example"
+      ],
+      "projects": [
+        "northwind"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "northwind": {
+          "state": "pending",
+          "analyzed_at": null,
+          "files_reviewed": [],
+          "analysis_ref": null
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-07-22-northwind_supply_portal_walkthrough.md",
+        "transcript": "sources/transcripts/2026-07-22-northwind_supply_portal_walkthrough.txt",
+        "recording": "sources/recordings/2026-07-22-northwind_supply_portal_walkthrough.mp4"
+      }
+    },
+    {
+      "id": "2026-07-22_inspection_scheduling_walkthrough",
+      "match_key": "inspection_scheduling_walkthrough",
+      "type": "meeting",
+      "date": "2026-07-22",
+      "time": "12:15",
+      "title": "Inspection scheduling walkthrough",
+      "detected_on": "2026-07-23",
+      "attendees": [
+        "dana@northwind.example",
+        "ivo@harborline.example"
+      ],
+      "projects": [
+        "atlas"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-07-22-inspection_scheduling_walkthrough.md",
+        "transcript": "sources/transcripts/2026-07-22-inspection_scheduling_walkthrough.txt",
+        "recording": "sources/recordings/2026-07-22-inspection_scheduling_walkthrough.mp4"
+      }
+    },
+    {
+      "id": "2026-07-23_harborline_weekly_sync",
+      "match_key": "harborline_weekly_sync",
+      "type": "meeting",
+      "date": "2026-07-23",
+      "time": "09:15",
+      "title": "Harborline weekly sync",
+      "detected_on": "2026-07-24",
+      "attendees": [
+        "noor@studio.example",
+        "dana@northwind.example",
+        "ivo@harborline.example",
+        "kit@studio.example"
+      ],
+      "projects": [
+        "harborline"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "harborline": {
+          "state": "analyzed",
+          "analyzed_at": "2026-07-25",
+          "files_reviewed": [
+            "sources/recordings/2026-07-23-harborline_weekly_sync.mp4"
+          ],
+          "analysis_ref": "run-999"
+        }
+      },
+      "sources": {
+        "granola_note": null,
+        "transcript": null,
+        "recording": "sources/recordings/2026-07-23-harborline_weekly_sync.mp4"
+      }
+    },
+    {
+      "id": "2026-07-23_portal_handover_check",
+      "match_key": "portal_handover_check",
+      "type": "meeting",
+      "date": "2026-07-23",
+      "time": "14:15",
+      "title": "Portal handover check",
+      "detected_on": "2026-07-24",
+      "attendees": [
+        "noor@studio.example",
+        "tam@quillusers.example"
+      ],
+      "projects": [
+        "northwind"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "northwind": {
+          "state": "pending",
+          "analyzed_at": null,
+          "files_reviewed": [],
+          "analysis_ref": null
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-07-23-portal_handover_check.md",
+        "transcript": "sources/transcripts/2026-07-23-portal_handover_check.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-24_inspection_scheduling_walkthrough",
+      "match_key": "inspection_scheduling_walkthrough",
+      "type": "meeting",
+      "date": "2026-07-24",
+      "time": "13:30",
+      "title": "Inspection scheduling walkthrough",
+      "detected_on": "2026-07-25",
+      "attendees": [
+        "tam@quillusers.example",
+        "sam@studio.example",
+        "dana@northwind.example"
+      ],
+      "projects": [
+        "atlas"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-07-24-inspection_scheduling_walkthrough.md",
+        "transcript": null,
+        "recording": "sources/recordings/2026-07-24-inspection_scheduling_walkthrough.mp4"
+      }
+    },
+    {
+      "id": "2026-07-27_manifest_import_retro",
+      "match_key": "manifest_import_retro",
+      "type": "meeting",
+      "date": "2026-07-27",
+      "time": "09:00",
+      "title": "Manifest import retro",
+      "detected_on": "2026-07-28",
+      "attendees": [
+        "ivo@harborline.example",
+        "tam@quillusers.example",
+        "dana@northwind.example",
+        "sam@studio.example"
+      ],
+      "projects": [
+        "harborline"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "harborline": {
+          "state": "pending",
+          "analyzed_at": null,
+          "files_reviewed": [],
+          "analysis_ref": null
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-07-27-manifest_import_retro.md",
+        "transcript": null,
+        "recording": "sources/recordings/2026-07-27-manifest_import_retro.mp4"
+      }
+    },
+    {
+      "id": "2026-07-27_inspection_scheduling_walkthrough",
+      "match_key": "inspection_scheduling_walkthrough",
+      "type": "meeting",
+      "date": "2026-07-27",
+      "time": "10:00",
+      "title": "Inspection scheduling walkthrough",
+      "detected_on": "2026-07-28",
+      "attendees": [
+        "kit@studio.example",
+        "bo@harborline.example",
+        "dana@northwind.example",
+        "rue@atlaspermits.example"
+      ],
+      "projects": [
+        "atlas"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "atlas": {
+          "state": "analyzed",
+          "analyzed_at": "2026-07-29",
+          "files_reviewed": [
+            "sources/granola/2026-07-27-inspection_scheduling_walkthrough.md",
+            "sources/transcripts/2026-07-27-inspection_scheduling_walkthrough.txt"
+          ],
+          "analysis_ref": "run-999"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-07-27-inspection_scheduling_walkthrough.md",
+        "transcript": "sources/transcripts/2026-07-27-inspection_scheduling_walkthrough.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-27_ops_retro",
+      "match_key": "ops_retro",
+      "type": "meeting",
+      "date": "2026-07-27",
+      "time": "13:30",
+      "title": "Ops retro",
+      "detected_on": "2026-07-28",
+      "attendees": [
+        "kit@studio.example",
+        "dana@northwind.example"
+      ],
+      "projects": [
+        "studio_ops"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "studio_ops": {
+          "state": "analyzed",
+          "analyzed_at": "2026-07-29",
+          "files_reviewed": [
+            "sources/granola/2026-07-27-ops_retro.md",
+            "sources/transcripts/2026-07-27-ops_retro.txt",
+            "sources/recordings/2026-07-27-ops_retro.mp4"
+          ],
+          "analysis_ref": "run-73"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-07-27-ops_retro.md",
+        "transcript": "sources/transcripts/2026-07-27-ops_retro.txt",
+        "recording": "sources/recordings/2026-07-27-ops_retro.mp4"
+      }
+    },
+    {
+      "id": "2026-07-27_ops_retro_dup",
+      "match_key": "ops_retro",
+      "type": "meeting",
+      "date": "2026-07-27",
+      "time": "13:30",
+      "title": "Ops retro (rescheduled)",
+      "detected_on": "2026-07-28",
+      "attendees": [
+        "kit@studio.example"
+      ],
+      "projects": [
+        "studio_ops"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "studio_ops": {
+          "state": "analyzed",
+          "analyzed_at": "2026-07-29",
+          "files_reviewed": [
+            "sources/granola/2026-07-27-ops_retro.md",
+            "sources/transcripts/2026-07-27-ops_retro.txt",
+            "sources/recordings/2026-07-27-ops_retro.mp4"
+          ],
+          "analysis_ref": "run-73"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-07-27-ops_retro.md",
+        "transcript": "sources/transcripts/2026-07-27-ops_retro.txt",
+        "recording": "sources/recordings/2026-07-27-ops_retro.mp4"
+      }
+    },
+    {
+      "id": "2026-07-28_atlas_permit_intake",
+      "match_key": "atlas_permit_intake",
+      "type": "meeting",
+      "date": "2026-07-28",
+      "time": "14:15",
+      "title": "Atlas permit intake",
+      "detected_on": "2026-07-29",
+      "attendees": [
+        "ivo@harborline.example",
+        "bo@harborline.example",
+        "kit@studio.example",
+        "rue@atlaspermits.example"
+      ],
+      "projects": [
+        "atlas"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-07-28-atlas_permit_intake.md",
+        "transcript": "sources/transcripts/2026-07-28-atlas_permit_intake.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-28_northwind_supply_portal_walkthrough",
+      "match_key": "northwind_supply_portal_walkthrough",
+      "type": "meeting",
+      "date": "2026-07-28",
+      "time": "15:15",
+      "title": "Northwind supply portal walkthrough",
+      "detected_on": "2026-07-29",
+      "attendees": [
+        "rue@atlaspermits.example",
+        "bo@harborline.example"
+      ],
+      "projects": [
+        "northwind"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-07-28-northwind_supply_portal_walkthrough.md",
+        "transcript": null,
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-29_harborline_weekly_sync",
+      "match_key": "harborline_weekly_sync",
+      "type": "meeting",
+      "date": "2026-07-29",
+      "time": "15:00",
+      "title": "Harborline weekly sync",
+      "detected_on": "2026-07-30",
+      "attendees": [
+        "ivo@harborline.example",
+        "tam@quillusers.example"
+      ],
+      "projects": [
+        "harborline"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-07-29-harborline_weekly_sync.md",
+        "transcript": null,
+        "recording": "sources/recordings/2026-07-29-harborline_weekly_sync.mp4"
+      }
+    },
+    {
+      "id": "2026-07-30_northwind_supply_portal_walkthrough",
+      "match_key": "northwind_supply_portal_walkthrough",
+      "type": "meeting",
+      "date": "2026-07-30",
+      "time": "11:30",
+      "title": "Northwind supply portal walkthrough",
+      "detected_on": "2026-07-31",
+      "attendees": [
+        "ivo@harborline.example",
+        "tam@quillusers.example",
+        "noor@studio.example",
+        "sam@studio.example"
+      ],
+      "projects": [
+        "northwind"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-07-30-northwind_supply_portal_walkthrough.md",
+        "transcript": null,
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-07-30_atlas_permit_intake",
+      "match_key": "atlas_permit_intake",
+      "type": "meeting",
+      "date": "2026-07-30",
+      "time": "13:00",
+      "title": "Atlas permit intake",
+      "detected_on": "2026-07-31",
+      "attendees": [
+        "dana@northwind.example",
+        "sam@studio.example",
+        "kit@studio.example",
+        "rue@atlaspermits.example"
+      ],
+      "projects": [
+        "atlas"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "atlas": {
+          "state": "analyzed",
+          "analyzed_at": "2026-08-01",
+          "files_reviewed": [
+            "sources/granola/2026-07-30-atlas_permit_intake.md"
+          ],
+          "analysis_ref": "run-88"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-07-30-atlas_permit_intake.md",
+        "transcript": null,
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-03_ops_retro",
+      "match_key": "ops_retro",
+      "type": "meeting",
+      "date": "2026-08-03",
+      "time": "09:00",
+      "title": "Ops retro",
+      "detected_on": "2026-08-04",
+      "attendees": [
+        "dana@northwind.example",
+        "kit@studio.example",
+        "bo@harborline.example",
+        "noor@studio.example"
+      ],
+      "projects": [
+        "studio_ops"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": null,
+        "transcript": null,
+        "recording": "sources/recordings/2026-08-03-ops_retro.mp4"
+      }
+    },
+    {
+      "id": "2026-08-03_quill___what_ships_first",
+      "match_key": "quill___what_ships_first",
+      "type": "meeting",
+      "date": "2026-08-03",
+      "time": "11:00",
+      "title": "Quill \u2014 what ships first",
+      "detected_on": "2026-08-04",
+      "attendees": [
+        "noor@studio.example",
+        "kit@studio.example",
+        "ivo@harborline.example"
+      ],
+      "projects": [
+        "quill"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-08-03-quill___what_ships_first.md",
+        "transcript": "sources/transcripts/2026-08-03-quill___what_ships_first.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-03_freight_manifest_edge_cases",
+      "match_key": "freight_manifest_edge_cases",
+      "type": "meeting",
+      "date": "2026-08-03",
+      "time": "14:15",
+      "title": "Freight manifest edge cases",
+      "detected_on": "2026-08-04",
+      "attendees": [
+        "ivo@harborline.example",
+        "sam@studio.example",
+        "noor@studio.example",
+        "tam@quillusers.example"
+      ],
+      "projects": [
+        "harborline"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "harborline": {
+          "state": "pending",
+          "analyzed_at": null,
+          "files_reviewed": [],
+          "analysis_ref": null
+        }
+      },
+      "sources": {
+        "granola_note": null,
+        "transcript": "sources/transcripts/2026-08-03-freight_manifest_edge_cases.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-04_inspection_scheduling_walkthrough",
+      "match_key": "inspection_scheduling_walkthrough",
+      "type": "meeting",
+      "date": "2026-08-04",
+      "time": "16:00",
+      "title": "Inspection scheduling walkthrough",
+      "detected_on": "2026-08-05",
+      "attendees": [
+        "kit@studio.example",
+        "noor@studio.example",
+        "dana@northwind.example",
+        "ivo@harborline.example"
+      ],
+      "projects": [
+        "atlas"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "atlas": {
+          "state": "analyzed",
+          "analyzed_at": "2026-08-06",
+          "files_reviewed": [
+            "sources/granola/2026-08-04-inspection_scheduling_walkthrough.md",
+            "sources/transcripts/2026-08-04-inspection_scheduling_walkthrough.txt"
+          ],
+          "analysis_ref": "run-47"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-08-04-inspection_scheduling_walkthrough.md",
+        "transcript": "sources/transcripts/2026-08-04-inspection_scheduling_walkthrough.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-05_quill___what_ships_first",
+      "match_key": "quill___what_ships_first",
+      "type": "meeting",
+      "date": "2026-08-05",
+      "time": "16:15",
+      "title": "Quill \u2014 what ships first",
+      "detected_on": "2026-08-06",
+      "attendees": [
+        "bo@harborline.example",
+        "noor@studio.example",
+        "dana@northwind.example",
+        "rue@atlaspermits.example"
+      ],
+      "projects": [
+        "quill"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-08-05-quill___what_ships_first.md",
+        "transcript": "sources/transcripts/2026-08-05-quill___what_ships_first.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-06_quill_editor_shaping",
+      "match_key": "quill_editor_shaping",
+      "type": "meeting",
+      "date": "2026-08-06",
+      "time": "12:15",
+      "title": "Quill editor shaping",
+      "detected_on": "2026-08-07",
+      "attendees": [
+        "noor@studio.example",
+        "bo@harborline.example"
+      ],
+      "projects": [
+        "quill"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "quill": {
+          "state": "analyzed",
+          "analyzed_at": "2026-08-08",
+          "files_reviewed": [
+            "sources/granola/2026-08-06-quill_editor_shaping.md",
+            "sources/transcripts/2026-08-06-quill_editor_shaping.txt",
+            "sources/recordings/2026-08-06-quill_editor_shaping.mp4"
+          ],
+          "analysis_ref": "run-46"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-08-06-quill_editor_shaping.md",
+        "transcript": "sources/transcripts/2026-08-06-quill_editor_shaping.txt",
+        "recording": "sources/recordings/2026-08-06-quill_editor_shaping.mp4"
+      }
+    },
+    {
+      "id": "2026-08-06_northwind_invoice_sync_kickoff",
+      "match_key": "northwind_invoice_sync_kickoff",
+      "type": "meeting",
+      "date": "2026-08-06",
+      "time": "17:00",
+      "title": "Northwind invoice sync kickoff",
+      "detected_on": "2026-08-07",
+      "attendees": [
+        "rue@atlaspermits.example",
+        "tam@quillusers.example"
+      ],
+      "projects": [
+        "northwind"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-08-06-northwind_invoice_sync_kickoff.md",
+        "transcript": null,
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-07_follow_up_on_the_thing_we_discussed",
+      "match_key": "follow_up_on_the_thing_we_discussed",
+      "type": "meeting",
+      "date": "2026-08-07",
+      "time": "13:15",
+      "title": "Follow-up on the thing we discussed",
+      "detected_on": "2026-08-08",
+      "attendees": [
+        "rue@atlaspermits.example",
+        "kit@studio.example",
+        "noor@studio.example"
+      ],
+      "projects": [
+        "internal_unsorted"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-08-07-follow_up_on_the_thing_we_discussed.md",
+        "transcript": "sources/transcripts/2026-08-07-follow_up_on_the_thing_we_discussed.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-10_northwind_invoice_sync_kickoff",
+      "match_key": "northwind_invoice_sync_kickoff",
+      "type": "meeting",
+      "date": "2026-08-10",
+      "time": "09:00",
+      "title": "Northwind invoice sync kickoff",
+      "detected_on": "2026-08-11",
+      "attendees": [
+        "dana@northwind.example",
+        "tam@quillusers.example",
+        "ivo@harborline.example"
+      ],
+      "projects": [
+        "northwind"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-08-10-northwind_invoice_sync_kickoff.md",
+        "transcript": null,
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-10_quill___what_ships_first",
+      "match_key": "quill___what_ships_first",
+      "type": "meeting",
+      "date": "2026-08-10",
+      "time": "10:30",
+      "title": "Quill \u2014 what ships first",
+      "detected_on": "2026-08-11",
+      "attendees": [
+        "kit@studio.example",
+        "noor@studio.example",
+        "dana@northwind.example",
+        "tam@quillusers.example"
+      ],
+      "projects": [
+        "quill"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-08-10-quill___what_ships_first.md",
+        "transcript": "sources/transcripts/2026-08-10-quill___what_ships_first.txt",
+        "recording": "sources/recordings/2026-08-10-quill___what_ships_first.mp4"
+      }
+    },
+    {
+      "id": "2026-08-10_freight_manifest_edge_cases",
+      "match_key": "freight_manifest_edge_cases",
+      "type": "meeting",
+      "date": "2026-08-10",
+      "time": "16:30",
+      "title": "Freight manifest edge cases",
+      "detected_on": "2026-08-11",
+      "attendees": [
+        "kit@studio.example",
+        "bo@harborline.example",
+        "tam@quillusers.example"
+      ],
+      "projects": [
+        "harborline"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "harborline": {
+          "state": "analyzed",
+          "analyzed_at": "2026-08-12",
+          "files_reviewed": [
+            "sources/transcripts/2026-08-10-freight_manifest_edge_cases.txt"
+          ],
+          "analysis_ref": "run-65"
+        }
+      },
+      "sources": {
+        "granola_note": null,
+        "transcript": "sources/transcripts/2026-08-10-freight_manifest_edge_cases.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-11_portal_handover_check",
+      "match_key": "portal_handover_check",
+      "type": "meeting",
+      "date": "2026-08-11",
+      "time": "16:00",
+      "title": "Portal handover check",
+      "detected_on": "2026-08-12",
+      "attendees": [
+        "sam@studio.example",
+        "kit@studio.example",
+        "ivo@harborline.example"
+      ],
+      "projects": [
+        "northwind"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "northwind": {
+          "state": "pending",
+          "analyzed_at": null,
+          "files_reviewed": [],
+          "analysis_ref": null
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-08-11-portal_handover_check.md",
+        "transcript": "sources/transcripts/2026-08-11-portal_handover_check.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-11_inspection_scheduling_walkthrough",
+      "match_key": "inspection_scheduling_walkthrough",
+      "type": "meeting",
+      "date": "2026-08-11",
+      "time": "17:15",
+      "title": "Inspection scheduling walkthrough",
+      "detected_on": "2026-08-12",
+      "attendees": [
+        "bo@harborline.example",
+        "rue@atlaspermits.example",
+        "tam@quillusers.example"
+      ],
+      "projects": [
+        "atlas"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-08-11-inspection_scheduling_walkthrough.md",
+        "transcript": "sources/transcripts/2026-08-11-inspection_scheduling_walkthrough.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-12_weekly_standup",
+      "match_key": "weekly_standup",
+      "type": "meeting",
+      "date": "2026-08-12",
+      "time": "13:15",
+      "title": "Weekly standup",
+      "detected_on": "2026-08-13",
+      "attendees": [
+        "ivo@harborline.example",
+        "tam@quillusers.example",
+        "rue@atlaspermits.example",
+        "kit@studio.example"
+      ],
+      "projects": [
+        "studio_ops"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-08-12-weekly_standup.md",
+        "transcript": "sources/transcripts/2026-08-12-weekly_standup.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-13_catch_up_with_the_new_team",
+      "match_key": "catch_up_with_the_new_team",
+      "type": "meeting",
+      "date": "2026-08-13",
+      "time": "12:15",
+      "title": "Catch-up with the new team",
+      "detected_on": "2026-08-14",
+      "attendees": [
+        "kit@studio.example",
+        "bo@harborline.example",
+        "dana@northwind.example",
+        "noor@studio.example"
+      ],
+      "projects": [
+        "internal_unsorted"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-08-13-catch_up_with_the_new_team.md",
+        "transcript": "sources/transcripts/2026-08-13-catch_up_with_the_new_team.txt",
+        "recording": "sources/recordings/2026-08-13-catch_up_with_the_new_team.mp4"
+      }
+    },
+    {
+      "id": "2026-08-13_atlas_permit_intake",
+      "match_key": "atlas_permit_intake",
+      "type": "meeting",
+      "date": "2026-08-13",
+      "time": "14:00",
+      "title": "Atlas permit intake",
+      "detected_on": "2026-08-14",
+      "attendees": [
+        "ivo@harborline.example",
+        "dana@northwind.example",
+        "noor@studio.example"
+      ],
+      "projects": [
+        "atlas"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-08-13-atlas_permit_intake.md",
+        "transcript": null,
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-14_manifest_import_retro",
+      "match_key": "manifest_import_retro",
+      "type": "meeting",
+      "date": "2026-08-14",
+      "time": "14:15",
+      "title": "Manifest import retro",
+      "detected_on": "2026-08-15",
+      "attendees": [
+        "kit@studio.example",
+        "rue@atlaspermits.example",
+        "bo@harborline.example",
+        "ivo@harborline.example"
+      ],
+      "projects": [
+        "harborline"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-08-14-manifest_import_retro.md",
+        "transcript": "sources/transcripts/2026-08-14-manifest_import_retro.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-14_manifest_import_retro",
+      "match_key": "manifest_import_retro",
+      "type": "meeting",
+      "date": "2026-08-14",
+      "time": "16:15",
+      "title": "Manifest import retro",
+      "detected_on": "2026-08-15",
+      "attendees": [
+        "noor@studio.example",
+        "rue@atlaspermits.example"
+      ],
+      "projects": [
+        "harborline"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "harborline": {
+          "state": "analyzed",
+          "analyzed_at": "2026-08-16",
+          "files_reviewed": [
+            "sources/granola/2026-08-14-manifest_import_retro.md",
+            "sources/transcripts/2026-08-14-manifest_import_retro.txt",
+            "sources/recordings/2026-08-14-manifest_import_retro.mp4"
+          ],
+          "analysis_ref": "run-78"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-08-14-manifest_import_retro.md",
+        "transcript": "sources/transcripts/2026-08-14-manifest_import_retro.txt",
+        "recording": "sources/recordings/2026-08-14-manifest_import_retro.mp4"
+      }
+    },
+    {
+      "id": "2026-08-17_weekly_standup",
+      "match_key": "weekly_standup",
+      "type": "meeting",
+      "date": "2026-08-17",
+      "time": "11:00",
+      "title": "Weekly standup",
+      "detected_on": "2026-08-18",
+      "attendees": [
+        "rue@atlaspermits.example",
+        "ivo@harborline.example",
+        "dana@northwind.example",
+        "noor@studio.example"
+      ],
+      "projects": [
+        "studio_ops"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "studio_ops": {
+          "state": "analyzed",
+          "analyzed_at": "2026-08-19",
+          "files_reviewed": [
+            "sources/granola/2026-08-17-weekly_standup.md"
+          ],
+          "analysis_ref": "run-53"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-08-17-weekly_standup.md",
+        "transcript": null,
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-17_quick_sync",
+      "match_key": "quick_sync",
+      "type": "meeting",
+      "date": "2026-08-17",
+      "time": "16:15",
+      "title": "Quick sync",
+      "detected_on": "2026-08-18",
+      "attendees": [
+        "tam@quillusers.example",
+        "noor@studio.example",
+        "bo@harborline.example",
+        "kit@studio.example"
+      ],
+      "projects": [
+        "internal_unsorted"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": null,
+        "transcript": "sources/transcripts/2026-08-17-quick_sync.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-18_quick_sync",
+      "match_key": "quick_sync",
+      "type": "meeting",
+      "date": "2026-08-18",
+      "time": "11:15",
+      "title": "Quick sync",
+      "detected_on": "2026-08-19",
+      "attendees": [
+        "kit@studio.example",
+        "rue@atlaspermits.example"
+      ],
+      "projects": [
+        "internal_unsorted"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-08-18-quick_sync.md",
+        "transcript": "sources/transcripts/2026-08-18-quick_sync.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-18_quill___what_ships_first",
+      "match_key": "quill___what_ships_first",
+      "type": "meeting",
+      "date": "2026-08-18",
+      "time": "12:00",
+      "title": "Quill \u2014 what ships first",
+      "detected_on": "2026-08-19",
+      "attendees": [
+        "noor@studio.example",
+        "ivo@harborline.example"
+      ],
+      "projects": [
+        "quill"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-08-18-quill___what_ships_first.md",
+        "transcript": "sources/transcripts/2026-08-18-quill___what_ships_first.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-19_quill_editor_shaping",
+      "match_key": "quill_editor_shaping",
+      "type": "meeting",
+      "date": "2026-08-19",
+      "time": "13:15",
+      "title": "Quill editor shaping",
+      "detected_on": "2026-08-20",
+      "attendees": [
+        "noor@studio.example",
+        "dana@northwind.example",
+        "tam@quillusers.example",
+        "rue@atlaspermits.example"
+      ],
+      "projects": [
+        "quill"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-08-19-quill_editor_shaping.md",
+        "transcript": "sources/transcripts/2026-08-19-quill_editor_shaping.txt",
+        "recording": "sources/recordings/2026-08-19-quill_editor_shaping.mp4"
+      }
+    },
+    {
+      "id": "2026-08-20_weekly_standup",
+      "match_key": "weekly_standup",
+      "type": "meeting",
+      "date": "2026-08-20",
+      "time": "14:30",
+      "title": "Weekly standup",
+      "detected_on": "2026-08-21",
+      "attendees": [
+        "noor@studio.example",
+        "kit@studio.example"
+      ],
+      "projects": [
+        "studio_ops"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "studio_ops": {
+          "state": "analyzed",
+          "analyzed_at": "2026-08-22",
+          "files_reviewed": [
+            "sources/granola/2026-08-20-weekly_standup.md",
+            "sources/transcripts/2026-08-20-weekly_standup.txt",
+            "sources/recordings/2026-08-20-weekly_standup.mp4"
+          ],
+          "analysis_ref": "run-60"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-08-20-weekly_standup.md",
+        "transcript": "sources/transcripts/2026-08-20-weekly_standup.txt",
+        "recording": "sources/recordings/2026-08-20-weekly_standup.mp4"
+      }
+    },
+    {
+      "id": "2026-08-20_weekly_standup",
+      "match_key": "weekly_standup",
+      "type": "meeting",
+      "date": "2026-08-20",
+      "time": "16:15",
+      "title": "Weekly standup",
+      "detected_on": "2026-08-21",
+      "attendees": [
+        "noor@studio.example",
+        "rue@atlaspermits.example"
+      ],
+      "projects": [
+        "studio_ops"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-08-20-weekly_standup.md",
+        "transcript": "sources/transcripts/2026-08-20-weekly_standup.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-24_quill_editor_shaping",
+      "match_key": "quill_editor_shaping",
+      "type": "meeting",
+      "date": "2026-08-24",
+      "time": "09:30",
+      "title": "Quill editor shaping",
+      "detected_on": "2026-08-25",
+      "attendees": [
+        "rue@atlaspermits.example",
+        "ivo@harborline.example",
+        "tam@quillusers.example",
+        "kit@studio.example"
+      ],
+      "projects": [
+        "quill"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "quill": {
+          "state": "pending",
+          "analyzed_at": null,
+          "files_reviewed": [],
+          "analysis_ref": null
+        }
+      },
+      "sources": {
+        "granola_note": null,
+        "transcript": "sources/transcripts/2026-08-24-quill_editor_shaping.txt",
+        "recording": "sources/recordings/2026-08-24-quill_editor_shaping.mp4"
+      }
+    },
+    {
+      "id": "2026-08-24_quill___what_ships_first",
+      "match_key": "quill___what_ships_first",
+      "type": "meeting",
+      "date": "2026-08-24",
+      "time": "17:00",
+      "title": "Quill \u2014 what ships first",
+      "detected_on": "2026-08-25",
+      "attendees": [
+        "noor@studio.example",
+        "bo@harborline.example",
+        "sam@studio.example"
+      ],
+      "projects": [
+        "quill"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "quill": {
+          "state": "analyzed",
+          "analyzed_at": "2026-08-26",
+          "files_reviewed": [
+            "sources/granola/2026-08-24-quill___what_ships_first.md"
+          ],
+          "analysis_ref": "run-82"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-08-24-quill___what_ships_first.md",
+        "transcript": null,
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-25_hiring_sync",
+      "match_key": "hiring_sync",
+      "type": "meeting",
+      "date": "2026-08-25",
+      "time": "14:00",
+      "title": "Hiring sync",
+      "detected_on": "2026-08-26",
+      "attendees": [
+        "dana@northwind.example",
+        "bo@harborline.example"
+      ],
+      "projects": [
+        "studio_ops"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "studio_ops": {
+          "state": "pending",
+          "analyzed_at": null,
+          "files_reviewed": [],
+          "analysis_ref": null
+        }
+      },
+      "sources": {
+        "granola_note": null,
+        "transcript": "sources/transcripts/2026-08-25-hiring_sync.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-26_hiring_sync",
+      "match_key": "hiring_sync",
+      "type": "meeting",
+      "date": "2026-08-26",
+      "time": "10:30",
+      "title": "Hiring sync",
+      "detected_on": "2026-08-27",
+      "attendees": [
+        "bo@harborline.example",
+        "kit@studio.example",
+        "dana@northwind.example",
+        "tam@quillusers.example"
+      ],
+      "projects": [
+        "studio_ops"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": null,
+        "transcript": null,
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-26_northwind_invoice_sync_kickoff",
+      "match_key": "northwind_invoice_sync_kickoff",
+      "type": "meeting",
+      "date": "2026-08-26",
+      "time": "11:30",
+      "title": "Northwind invoice sync kickoff",
+      "detected_on": "2026-08-27",
+      "attendees": [
+        "bo@harborline.example",
+        "kit@studio.example",
+        "tam@quillusers.example",
+        "sam@studio.example"
+      ],
+      "projects": [
+        "northwind"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": null,
+        "transcript": "sources/transcripts/2026-08-26-northwind_invoice_sync_kickoff.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-26_ops_retro",
+      "match_key": "ops_retro",
+      "type": "meeting",
+      "date": "2026-08-26",
+      "time": "14:15",
+      "title": "Ops retro",
+      "detected_on": "2026-08-27",
+      "attendees": [
+        "sam@studio.example",
+        "rue@atlaspermits.example"
+      ],
+      "projects": [
+        "studio_ops"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "studio_ops": {
+          "state": "pending",
+          "analyzed_at": null,
+          "files_reviewed": [],
+          "analysis_ref": null
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-08-26-ops_retro.md",
+        "transcript": "sources/transcripts/2026-08-26-ops_retro.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-27_weekly_standup",
+      "match_key": "weekly_standup",
+      "type": "meeting",
+      "date": "2026-08-27",
+      "time": "11:30",
+      "title": "Weekly standup",
+      "detected_on": "2026-08-28",
+      "attendees": [
+        "kit@studio.example",
+        "dana@northwind.example"
+      ],
+      "projects": [
+        "studio_ops"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": null,
+        "transcript": "sources/transcripts/2026-08-27-weekly_standup.txt",
+        "recording": "sources/recordings/2026-08-27-weekly_standup.mp4"
+      }
+    },
+    {
+      "id": "2026-08-27_harborline_manifest_import",
+      "match_key": "harborline_manifest_import",
+      "type": "meeting",
+      "date": "2026-08-27",
+      "time": "11:30",
+      "title": "Harborline manifest import",
+      "detected_on": "2026-08-28",
+      "attendees": [
+        "dana@northwind.example",
+        "sam@studio.example",
+        "noor@studio.example",
+        "ivo@harborline.example"
+      ],
+      "projects": [
+        "harborline"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "harborline": {
+          "state": "analyzed",
+          "analyzed_at": "2026-08-29",
+          "files_reviewed": [
+            "sources/granola/2026-08-27-harborline_manifest_import.md",
+            "sources/transcripts/2026-08-27-harborline_manifest_import.txt",
+            "sources/recordings/2026-08-27-harborline_manifest_import.mp4"
+          ],
+          "analysis_ref": "run-66"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-08-27-harborline_manifest_import.md",
+        "transcript": "sources/transcripts/2026-08-27-harborline_manifest_import.txt",
+        "recording": "sources/recordings/2026-08-27-harborline_manifest_import.mp4"
+      }
+    },
+    {
+      "id": "2026-08-28_invoice_sync___error_states",
+      "match_key": "invoice_sync___error_states",
+      "type": "meeting",
+      "date": "2026-08-28",
+      "time": "13:30",
+      "title": "Invoice sync \u2014 error states",
+      "detected_on": "2026-08-29",
+      "attendees": [
+        "dana@northwind.example",
+        "tam@quillusers.example",
+        "sam@studio.example",
+        "ivo@harborline.example"
+      ],
+      "projects": [
+        "northwind"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "northwind": {
+          "state": "analyzed",
+          "analyzed_at": "2026-08-30",
+          "files_reviewed": [
+            "sources/granola/2026-08-28-invoice_sync___error_states.md",
+            "sources/transcripts/2026-08-28-invoice_sync___error_states.txt"
+          ],
+          "analysis_ref": "run-59"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-08-28-invoice_sync___error_states.md",
+        "transcript": "sources/transcripts/2026-08-28-invoice_sync___error_states.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-08-28_freight_manifest_edge_cases",
+      "match_key": "freight_manifest_edge_cases",
+      "type": "meeting",
+      "date": "2026-08-28",
+      "time": "16:30",
+      "title": "Freight manifest edge cases",
+      "detected_on": "2026-08-29",
+      "attendees": [
+        "dana@northwind.example",
+        "sam@studio.example",
+        "ivo@harborline.example",
+        "rue@atlaspermits.example"
+      ],
+      "projects": [
+        "harborline"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "harborline": {
+          "state": "analyzed",
+          "analyzed_at": "2026-08-30",
+          "files_reviewed": [
+            "sources/granola/2026-08-28-freight_manifest_edge_cases.md",
+            "sources/transcripts/2026-08-28-freight_manifest_edge_cases.txt",
+            "sources/recordings/2026-08-28-freight_manifest_edge_cases.mp4"
+          ],
+          "analysis_ref": "run-71"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-08-28-freight_manifest_edge_cases.md",
+        "transcript": "sources/transcripts/2026-08-28-freight_manifest_edge_cases.txt",
+        "recording": "sources/recordings/2026-08-28-freight_manifest_edge_cases.mp4"
+      }
+    },
+    {
+      "id": "2026-08-31_quill___what_ships_first",
+      "match_key": "quill___what_ships_first",
+      "type": "meeting",
+      "date": "2026-08-31",
+      "time": "17:15",
+      "title": "Quill \u2014 what ships first",
+      "detected_on": "2026-09-01",
+      "attendees": [
+        "tam@quillusers.example",
+        "noor@studio.example"
+      ],
+      "projects": [
+        "quill"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "quill": {
+          "state": "analyzed",
+          "analyzed_at": "2026-09-02",
+          "files_reviewed": [
+            "sources/granola/2026-08-31-quill___what_ships_first.md",
+            "sources/transcripts/2026-08-31-quill___what_ships_first.txt"
+          ],
+          "analysis_ref": "run-84"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-08-31-quill___what_ships_first.md",
+        "transcript": "sources/transcripts/2026-08-31-quill___what_ships_first.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-09-01_quill_drafting_flow_review",
+      "match_key": "quill_drafting_flow_review",
+      "type": "meeting",
+      "date": "2026-09-01",
+      "time": "15:00",
+      "title": "Quill drafting flow review",
+      "detected_on": "2026-09-02",
+      "attendees": [
+        "dana@northwind.example",
+        "rue@atlaspermits.example",
+        "sam@studio.example"
+      ],
+      "projects": [
+        "quill"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "quill": {
+          "state": "pending",
+          "analyzed_at": null,
+          "files_reviewed": [],
+          "analysis_ref": null
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-09-01-quill_drafting_flow_review.md",
+        "transcript": "sources/transcripts/2026-09-01-quill_drafting_flow_review.txt",
+        "recording": "sources/recordings/2026-09-01-quill_drafting_flow_review.mp4"
+      }
+    },
+    {
+      "id": "2026-09-02_atlas_permit_intake",
+      "match_key": "atlas_permit_intake",
+      "type": "meeting",
+      "date": "2026-09-02",
+      "time": "11:00",
+      "title": "Atlas permit intake",
+      "detected_on": "2026-09-03",
+      "attendees": [
+        "ivo@harborline.example",
+        "noor@studio.example"
+      ],
+      "projects": [
+        "atlas"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "atlas": {
+          "state": "analyzed",
+          "analyzed_at": "2026-09-04",
+          "files_reviewed": [
+            "sources/granola/2026-09-02-atlas_permit_intake.md",
+            "sources/transcripts/2026-09-02-atlas_permit_intake.txt"
+          ],
+          "analysis_ref": "run-75"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-09-02-atlas_permit_intake.md",
+        "transcript": "sources/transcripts/2026-09-02-atlas_permit_intake.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-09-02_catch_up_with_the_new_team",
+      "match_key": "catch_up_with_the_new_team",
+      "type": "meeting",
+      "date": "2026-09-02",
+      "time": "16:00",
+      "title": "Catch-up with the new team",
+      "detected_on": "2026-09-03",
+      "attendees": [
+        "kit@studio.example",
+        "ivo@harborline.example"
+      ],
+      "projects": [
+        "internal_unsorted"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": "sources/granola/2026-09-02-catch_up_with_the_new_team.md",
+        "transcript": "sources/transcripts/2026-09-02-catch_up_with_the_new_team.txt",
+        "recording": "sources/recordings/2026-09-02-catch_up_with_the_new_team.mp4"
+      }
+    },
+    {
+      "id": "2026-09-03_harborline_manifest_import",
+      "match_key": "harborline_manifest_import",
+      "type": "meeting",
+      "date": "2026-09-03",
+      "time": "11:00",
+      "title": "Harborline manifest import",
+      "detected_on": "2026-09-04",
+      "attendees": [
+        "tam@quillusers.example",
+        "rue@atlaspermits.example"
+      ],
+      "projects": [
+        "harborline"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {},
+      "sources": {
+        "granola_note": null,
+        "transcript": null,
+        "recording": "sources/recordings/2026-09-03-harborline_manifest_import.mp4"
+      }
+    },
+    {
+      "id": "2026-09-03_atlas_permit_intake",
+      "match_key": "atlas_permit_intake",
+      "type": "meeting",
+      "date": "2026-09-03",
+      "time": "16:00",
+      "title": "Atlas permit intake",
+      "detected_on": "2026-09-04",
+      "attendees": [
+        "rue@atlaspermits.example",
+        "ivo@harborline.example",
+        "bo@harborline.example"
+      ],
+      "projects": [
+        "atlas"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "atlas": {
+          "state": "analyzed",
+          "analyzed_at": "2026-09-05",
+          "files_reviewed": [
+            "sources/granola/2026-09-03-atlas_permit_intake.md",
+            "sources/transcripts/2026-09-03-atlas_permit_intake.txt"
+          ],
+          "analysis_ref": "run-86"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-09-03-atlas_permit_intake.md",
+        "transcript": "sources/transcripts/2026-09-03-atlas_permit_intake.txt",
+        "recording": null
+      }
+    },
+    {
+      "id": "2026-09-04_invoice_sync___error_states",
+      "match_key": "invoice_sync___error_states",
+      "type": "meeting",
+      "date": "2026-09-04",
+      "time": "09:00",
+      "title": "Invoice sync \u2014 error states",
+      "detected_on": "2026-09-05",
+      "attendees": [
+        "rue@atlaspermits.example",
+        "sam@studio.example",
+        "dana@northwind.example"
+      ],
+      "projects": [
+        "northwind"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "northwind": {
+          "state": "analyzed",
+          "analyzed_at": "2026-09-06",
+          "files_reviewed": [
+            "sources/granola/2026-09-04-invoice_sync___error_states.md",
+            "sources/transcripts/2026-09-04-invoice_sync___error_states.txt",
+            "sources/recordings/2026-09-04-invoice_sync___error_states.mp4"
+          ],
+          "analysis_ref": "run-73"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-09-04-invoice_sync___error_states.md",
+        "transcript": "sources/transcripts/2026-09-04-invoice_sync___error_states.txt",
+        "recording": "sources/recordings/2026-09-04-invoice_sync___error_states.mp4"
+      }
+    },
+    {
+      "id": "2026-09-04_quill_editor_shaping",
+      "match_key": "quill_editor_shaping",
+      "type": "meeting",
+      "date": "2026-09-04",
+      "time": "16:15",
+      "title": "Quill editor shaping",
+      "detected_on": "2026-09-05",
+      "attendees": [
+        "ivo@harborline.example",
+        "kit@studio.example"
+      ],
+      "projects": [
+        "quill"
+      ],
+      "summary": null,
+      "expected_files": [],
+      "notes": null,
+      "status": {
+        "quill": {
+          "state": "analyzed",
+          "analyzed_at": "2026-09-06",
+          "files_reviewed": [
+            "sources/granola/2026-09-04-quill_editor_shaping.md",
+            "sources/transcripts/2026-09-04-quill_editor_shaping.txt",
+            "sources/recordings/2026-09-04-quill_editor_shaping.mp4"
+          ],
+          "analysis_ref": "run-47"
+        }
+      },
+      "sources": {
+        "granola_note": "sources/granola/2026-09-04-quill_editor_shaping.md",
+        "transcript": "sources/transcripts/2026-09-04-quill_editor_shaping.txt",
+        "recording": "sources/recordings/2026-09-04-quill_editor_shaping.mp4"
+      }
+    }
+  ]
+}

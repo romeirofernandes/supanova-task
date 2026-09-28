@@ -1,0 +1,26 @@
+[
+  {
+    "type": "keyword",
+    "match": "manifest",
+    "project": "harborline",
+    "note": "freight manifests",
+    "by": "ops",
+    "on": "2026-07-20"
+  },
+  {
+    "type": "domain",
+    "match": "atlaspermits.example",
+    "project": "atlas",
+    "note": "",
+    "by": "ops",
+    "on": "2026-08-02"
+  },
+  {
+    "type": "keyword",
+    "match": "drafting",
+    "project": "quil",
+    "note": "typo in project id - currently dropped silently",
+    "by": "ops",
+    "on": "2026-08-11"
+  }
+]

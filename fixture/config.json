@@ -1,0 +1,90 @@
+{
+  "projects": [
+    {
+      "id": "northwind",
+      "name": "Northwind Supply",
+      "type": "client",
+      "keywords": [
+        "northwind",
+        "supply portal",
+        "invoice sync"
+      ],
+      "domains": [
+        "northwind.example"
+      ],
+      "emails": [
+        "dana@northwind.example"
+      ],
+      "active": true
+    },
+    {
+      "id": "harborline",
+      "name": "Harborline Freight",
+      "type": "client",
+      "keywords": [
+        "harborline",
+        "freight",
+        "manifest"
+      ],
+      "domains": [
+        "harborline.example"
+      ],
+      "emails": [
+        "ivo@harborline.example"
+      ],
+      "active": true
+    },
+    {
+      "id": "quill",
+      "name": "Quill (internal product)",
+      "type": "product",
+      "keywords": [
+        "quill",
+        "editor",
+        "drafting"
+      ],
+      "domains": [],
+      "emails": [],
+      "active": true
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas Permits",
+      "type": "client",
+      "keywords": [
+        "atlas",
+        "permit",
+        "inspection"
+      ],
+      "domains": [
+        "atlaspermits.example"
+      ],
+      "emails": [
+        "rue@atlaspermits.example"
+      ],
+      "active": true
+    },
+    {
+      "id": "studio_ops",
+      "name": "Studio Ops",
+      "type": "internal",
+      "keywords": [
+        "standup",
+        "retro",
+        "hiring",
+        "ops"
+      ],
+      "domains": [],
+      "emails": [],
+      "active": true
+    }
+  ],
+  "internal_domains": [
+    "studio.example"
+  ],
+  "fallbacks": {
+    "unrouted": "internal_unsorted",
+    "unknown_project": "unclassified"
+  },
+  "feed_freshness_threshold_days": 3
+}
