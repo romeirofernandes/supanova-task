@@ -74,4 +74,4 @@ Your submission and recordings are reviewed internally by Supanova only and are 
 
 ## Questions
 
-Reply on Internshala. We answer questions about the brief, not about how to build it: the point is to see how you handle an unclear problem.
+We are not answering questions during the task. Make a reasonable assumption and tell us what you assumed.
