@@ -40,11 +40,13 @@ function injectRectangleWipe(start: RectangleStart) {
   const clip = rectangleClipPaths(start);
   const css = `
     ::view-transition-group(root) {
-      animation-duration: 0.7s;
+      animation-duration: 1s;
       animation-timing-function: var(--expo-out);
     }
     ::view-transition-new(root) {
       animation-name: reveal-light-${start};
+      will-change: clip-path;
+      filter: blur(2px);
     }
     ::view-transition-old(root),
     .dark::view-transition-old(root) {
@@ -53,14 +55,17 @@ function injectRectangleWipe(start: RectangleStart) {
     }
     .dark::view-transition-new(root) {
       animation-name: reveal-dark-${start};
+      filter: blur(2px);
     }
     @keyframes reveal-dark-${start} {
-      from { clip-path: ${clip.from}; }
-      to { clip-path: ${clip.to}; }
+      from { clip-path: ${clip.from}; filter: blur(8px); }
+      50% { filter: blur(4px); }
+      to { clip-path: ${clip.to}; filter: blur(0px); }
     }
     @keyframes reveal-light-${start} {
-      from { clip-path: ${clip.from}; }
-      to { clip-path: ${clip.to}; }
+      from { clip-path: ${clip.from}; filter: blur(8px); }
+      50% { filter: blur(4px); }
+      to { clip-path: ${clip.to}; filter: blur(0px); }
     }
   `;
   let el = document.getElementById(TRANSITION_STYLE_ID) as HTMLStyleElement | null;
@@ -74,11 +79,13 @@ function injectRectangleWipe(start: RectangleStart) {
 
 export function ThemeToggle() {
   const { setTheme } = useTheme();
-  const [isDark, setIsDark] = useState(false);
+  const [displayDark, setDisplayDark] = useState(
+    () => typeof window !== "undefined" && document.documentElement.classList.contains("dark")
+  );
   const [direction, setDirection] = useState(1);
 
   useEffect(() => {
-    const sync = () => setIsDark(document.documentElement.classList.contains("dark"));
+    const sync = () => setDisplayDark(document.documentElement.classList.contains("dark"));
     sync();
     const observer = new MutationObserver(sync);
     observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
@@ -86,8 +93,9 @@ export function ThemeToggle() {
   }, []);
 
   const toggle = () => {
-    const goingDark = !isDark;
+    const goingDark = !displayDark;
     const start: RectangleStart = goingDark ? "bottom-up" : "top-down";
+    setDisplayDark(goingDark);
     setDirection(goingDark ? 1 : -1);
     injectRectangleWipe(start);
     const switchTheme = () => setTheme(goingDark ? "dark" : "light");
@@ -102,13 +110,13 @@ export function ThemeToggle() {
     <Button
       variant="outline"
       size="icon"
-      aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
+      aria-label={displayDark ? "Switch to light mode" : "Switch to dark mode"}
       onClick={toggle}
       className="overflow-hidden active:scale-[0.96]"
     >
       <AnimatePresence mode="wait" initial={false} custom={direction}>
         <m.span
-          key={isDark ? "moon" : "sun"}
+          key={displayDark ? "moon" : "sun"}
           custom={direction}
           variants={{
             enter: (d: number) => ({ opacity: 0, y: 12 * d, filter: "blur(4px)" }),
@@ -118,10 +126,10 @@ export function ThemeToggle() {
           initial="enter"
           animate="center"
           exit="exit"
-          transition={{ type: "spring", duration: 0.3, bounce: 0 }}
+          transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
           className="flex"
         >
-          <HugeiconsIcon icon={isDark ? Moon02Icon : Sun02Icon} size={16} strokeWidth={1.5} />
+          <HugeiconsIcon icon={displayDark ? Moon02Icon : Sun02Icon} size={16} strokeWidth={1.5} />
         </m.span>
       </AnimatePresence>
     </Button>
