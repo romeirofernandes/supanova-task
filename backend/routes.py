@@ -6,11 +6,18 @@ from typing import Annotated
 
 from fastapi import APIRouter, HTTPException, Query
 
-from .schemas import Health, PreviewRequest, SaveRequest
-from .scoring import founder_sentence, rank_signals
-from .store import read_store, write_store_atomic
+try:
+    from .schemas import Health, PreviewRequest, SaveRequest
+    from .scoring import founder_sentence, rank_signals
+    from .store import read_store, write_store_atomic
+except ImportError:
+    from schemas import Health, PreviewRequest, SaveRequest
+    from scoring import founder_sentence, rank_signals
+    from store import read_store, write_store_atomic
 
 FIXTURE_DIR = Path(__file__).resolve().parent.parent / "fixture"
+if not FIXTURE_DIR.exists():
+    FIXTURE_DIR = Path(__file__).resolve().parent / "fixture"
 
 DEFAULT_WEIGHTS = {
     "recency": 40,

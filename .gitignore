@@ -3,3 +3,4 @@ skills-lock.json
 .venv/
 __pycache__/
 backend/profiles.json
+backend/.env
