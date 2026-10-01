@@ -105,7 +105,7 @@ export function App() {
             </div>
             {data && <MoversList movers={data.movers} />}
             <div className="shrink-0">
-              <VersionHistory versions={versions} />
+              <VersionHistory versions={versions} onSelect={setWeights} />
             </div>
           </div>
           <div className="flex min-h-0 flex-col lg:overflow-hidden">
